@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_50439a3c2612aef99242f893635852a3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_50439a3c2612aef99242f893635852a3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_50439a3c2612aef99242f893635852a3 = L.map(
+                "map_50439a3c2612aef99242f893635852a3",
+                {
+                    center: [41.735, 27.225],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_71e1a035e92a8c05c6735568031392f2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_71e1a035e92a8c05c6735568031392f2.addTo(map_50439a3c2612aef99242f893635852a3);
+        
+    
+            var marker_4a142ba806dc0e6b900e08f0f9ce1ff7 = L.marker(
+                [41.735, 27.224],
+                {
+}
+            ).addTo(map_50439a3c2612aef99242f893635852a3);
+        
+    
+        var popup_b7f75a191fcf35ad6b41ae0eab2bf7c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46682429fabc209aca26e86c0fe3549c = $(`<div id="html_46682429fabc209aca26e86c0fe3549c" style="width: 100.0%; height: 100.0%;">Mahalle A</div>`)[0];
+                popup_b7f75a191fcf35ad6b41ae0eab2bf7c2.setContent(html_46682429fabc209aca26e86c0fe3549c);
+            
+        
+
+        marker_4a142ba806dc0e6b900e08f0f9ce1ff7.bindPopup(popup_b7f75a191fcf35ad6b41ae0eab2bf7c2)
+        ;
+
+        
+    
+    
+            marker_4a142ba806dc0e6b900e08f0f9ce1ff7.bindTooltip(
+                `<div>
+                     Mahalle A
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f97348b4a733e7f7e5f44fb954a42876 = L.marker(
+                [41.736, 27.23],
+                {
+}
+            ).addTo(map_50439a3c2612aef99242f893635852a3);
+        
+    
+        var popup_aaf400843670a0b71bcc767f540afe0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d8e29a2c28aef091649ea26eeebbcdc = $(`<div id="html_8d8e29a2c28aef091649ea26eeebbcdc" style="width: 100.0%; height: 100.0%;">Mahalle B</div>`)[0];
+                popup_aaf400843670a0b71bcc767f540afe0b.setContent(html_8d8e29a2c28aef091649ea26eeebbcdc);
+            
+        
+
+        marker_f97348b4a733e7f7e5f44fb954a42876.bindPopup(popup_aaf400843670a0b71bcc767f540afe0b)
+        ;
+
+        
+    
+    
+            marker_f97348b4a733e7f7e5f44fb954a42876.bindTooltip(
+                `<div>
+                     Mahalle B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_903bd8220fbbace900b645009d5ce2b0 = L.marker(
+                [41.737, 27.24],
+                {
+}
+            ).addTo(map_50439a3c2612aef99242f893635852a3);
+        
+    
+        var popup_3b23a8514b59e88dbf0109ad9ff407af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_816490867d0802b4ab82c29737a8f96f = $(`<div id="html_816490867d0802b4ab82c29737a8f96f" style="width: 100.0%; height: 100.0%;">Mahalle C</div>`)[0];
+                popup_3b23a8514b59e88dbf0109ad9ff407af.setContent(html_816490867d0802b4ab82c29737a8f96f);
+            
+        
+
+        marker_903bd8220fbbace900b645009d5ce2b0.bindPopup(popup_3b23a8514b59e88dbf0109ad9ff407af)
+        ;
+
+        
+    
+    
+            marker_903bd8220fbbace900b645009d5ce2b0.bindTooltip(
+                `<div>
+                     Mahalle C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a89b636362b81fdea63855cccf82ebcf = L.marker(
+                [41.735, 27.224],
+                {
+}
+            ).addTo(map_50439a3c2612aef99242f893635852a3);
+        
+    
+            var icon_479097b4cd56c8d2960894ede8821b95 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a89b636362b81fdea63855cccf82ebcf.setIcon(icon_479097b4cd56c8d2960894ede8821b95);
+        
+    
+        var popup_540fcdd30e98c368e333fc7092ac9ee2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca4ed18acb3e08756ea154f594d4762a = $(`<div id="html_ca4ed18acb3e08756ea154f594d4762a" style="width: 100.0%; height: 100.0%;">Önerilen Hat: Mahalle A</div>`)[0];
+                popup_540fcdd30e98c368e333fc7092ac9ee2.setContent(html_ca4ed18acb3e08756ea154f594d4762a);
+            
+        
+
+        marker_a89b636362b81fdea63855cccf82ebcf.bindPopup(popup_540fcdd30e98c368e333fc7092ac9ee2)
+        ;
+
+        
+    
+    
+            marker_a89b636362b81fdea63855cccf82ebcf.bindTooltip(
+                `<div>
+                     Önerilen Hat: Mahalle A
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
